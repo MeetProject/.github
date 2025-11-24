@@ -5,14 +5,14 @@ MeetProject는 React 기반 클라이언트와 Spring Boot 기반 Signal 서버�
 주요 기능으로는 참가자 관리, WebRTC 연결, 화면 공유, 채팅, 손들기 기능을 포함하며, STOMP(WebSocket)를 기반으로 Signal 서버와 클라이언트 간 실시간 통신을 처리합니다.<br>
 
 ## 구현 환경
-### Frontend
+### Frontend(client)
 - Next.js 14 (App Router)
 - TypeScript
 - Zustand
 - WebRTC API (getUserMedia, RTCPeerConnection)
 - STOMP.js + SockJS
 
-### Backend
+### Backend(signalServer)
 - Spring Boot 3
 - WebSocket(STOMP)
 - SimpleBroker
